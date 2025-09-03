@@ -6,12 +6,12 @@ body {
     display: flex;
     align-items: center; 
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .profile-card {
     height: 500px;
-    width: 1000px;
+    width: 800px;
 }
 
 article {
@@ -29,7 +29,7 @@ img:not(.photo, .flag) {
 .flag {
     width: 15px;
     height: 10px;
-    margin-left: 3px;
+    margin-left: 8px;
 }
 
 .photo {
@@ -43,32 +43,16 @@ svg {
     width: 25px;
 }
 
-h1 {
+h1, h2 {
     font-size: 40px;
 }
 
-/* .title {
-    float: right;
-    margin-right: 5%;
-} */
-
 section {
-     width: 50%;
-    height: 100%;
-    text-align: center;
-
-    &.links {
-        order: -1;
-    }
-}
-
-/* .links {
-   
-    
-} */
-
-/* .rechts {
     width: 50%;
     height: 100%;
     text-align: center;
-} */
+}
+
+.links {
+    order: -1;
+}
