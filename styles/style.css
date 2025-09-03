@@ -3,7 +3,10 @@
 }
 
 body {
-    align-items: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 100px;
 }
 
 .profile-card {
@@ -12,51 +15,60 @@ body {
 }
 
 article {
+    display: flex;
     align-items: center;
     border-radius: 30px;
-    background-image: linear-gradient(#161616, #333333);
+    background-image: linear-gradient(to bottom right, #161616, #333333);
 }
 
-.photo {
-    height: 300px;
-    width: 300px;
-    border-radius: 5px;
+img:not(.photo, .flag) {
+    height: 100px;
+    width: 100px;
 }
 
 .flag {
+    width: 15px;
+    height: 10px;
+    margin-left: 3px;
+}
+
+.photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+svg {
     height: 15px;
-    width: 25;
+    width: 25px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
-.name {
-    float: left;
-    margin-left: 5%;
-}
-
-.title {
+/* .title {
     float: right;
     margin-right: 5%;
+} */
 
-}
-
-p {
-    padding: 0;
-    font-size: 20px;
-}
-
-nav {
-    width: 50%;
+section {
+     width: 50%;
     height: 100%;
-    float: left;
     text-align: center;
+
+    &.links {
+        order: -1;
+    }
 }
 
-aside {
+/* .links {
+   
+    
+} */
+
+/* .rechts {
     width: 50%;
     height: 100%;
-    float: left;
-}
+    text-align: center;
+} */
