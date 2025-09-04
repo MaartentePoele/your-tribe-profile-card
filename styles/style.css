@@ -33,7 +33,7 @@ body {
     margin-top: 50px;
 }
 
-.profile-card {
+article {
     height: 500px;
     width: 800px;
     display: flex;
@@ -117,24 +117,18 @@ button img {
     width: 50px;
     height: 50px;
     margin: 10px;
-    
 }
 
-.moon {
+.light, .moon {
     display: flex;
     align-items: flex-start;
 }
 
-.light .moon {
+.dark, .sum {
     display: flex;
     align-items: flex-start;
 }
 
 .light .sun {
     display: none;
-}
-
-.sun {
-    display: flex;
-    align-items: flex-start;
 }
