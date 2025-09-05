@@ -70,6 +70,7 @@ section {
 .section-links {
     flex-wrap: wrap;
     align-items: flex-start;
+
     .photo {
         height: 250px;
         width: 250px;
